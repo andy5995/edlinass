@@ -27,9 +27,9 @@
 #For more information, please refer to <https://unlicense.org>
 #
 
-EDITOR=${EDITOR:-"geany"}
+EDITOR=${EDITOR:-"nano"}
 USER=${USER:-"edlinass"}
-VERSION="0.1.0"
+VERSION="0.1.1"
 
 tmpscript="/tmp/edlinass-$USER-$(shuf -i 10000-99999 -n 1)"
 echo "#!/bin/sh" > $tmpscript
